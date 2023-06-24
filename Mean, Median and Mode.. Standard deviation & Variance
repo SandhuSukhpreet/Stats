@@ -10,3 +10,9 @@ np.median(incomes)
 ages = np.random.randint(18, high=90, size=500)
 from scipy import stats
 stats.mode(age)
+
+#Calculating Standard deviation
+np.std(incomes)
+
+#Calculating Variance
+np.var(incomes)
