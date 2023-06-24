@@ -1,0 +1,12 @@
+#Calculating mean using randomly generated data
+import numpy as np
+incomes = np.random.normal(27000, 15000, 10000)
+np.mean(incomes)
+
+#Calculating Median
+np.median(incomes)
+
+#Calculating Mode by generating fake data
+ages = np.random.randint(18, high=90, size=500)
+from scipy import stats
+stats.mode(age)
